@@ -1,0 +1,26 @@
+/* reset de medidas css */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    /* variáveis */
+    --bg-color-normal: #264A98;
+    --text-color-normal: #ffffff;
+
+    --bg-color-links-normal: #ffffff;
+    --text-color-links-normal: #000000;
+
+    --bg-color-hover-links: #000000;
+    --text-color-hover-links: #ffffff;
+
+    --color-hr: #ffffff;
+}

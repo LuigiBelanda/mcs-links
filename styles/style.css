@@ -1,0 +1,98 @@
+body {
+    background-color: var(--bg-color-normal);
+    color: var(--text-color-normal);
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    text-align: center;
+
+    /* limite da div */
+    width: 350px;
+    margin: 60px auto 0px;
+}
+
+img {
+    /* a imagem vai respeitar a div que ela está inserida, ou seja, ela terá no máximo 300px */
+    width: 100%;
+}
+
+img.avatar {
+    border-radius: 50%;
+
+    width: 100px;
+    height: 100px;
+
+    border: #ffffff solid 5px;
+
+    /* espaço da imagem até o circulo em volta*/
+    padding: 1px;
+}
+
+h1 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+hr {
+    background-color: var(--color-hr);
+    width: 100%;
+    height: 5px;
+
+    border-radius: 10px;
+
+    margin: 35px 0px;
+}
+
+ul {
+    /* Tira os pontinhos da lista */
+    list-style: none;
+    margin: 10px 0px;
+}
+
+/* aqui pegamos todas as tags a dentro de li que por sua vez estão dentro de ul*/
+ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: var(--bg-color-links-normal);
+    color: var(--text-color-links-normal);
+
+    text-transform: uppercase;
+    font-size: 18px;
+
+    margin-bottom: 16px;
+    border-radius: 10px;
+
+    transition: background 500ms;
+}
+
+ul li a:hover {
+    background-color: var(--bg-color-hover-links);
+    color: var(--text-color-hover-links);
+}
+
+footer {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+
+    margin: 32px 0px;
+
+    transition: opacity 400ms;
+}
+
+footer:hover {
+    opacity: 1;
+}
